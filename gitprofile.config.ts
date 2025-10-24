@@ -51,15 +51,36 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Carter Whitworth', description: '', imageURL: '' },
+  seo: { 
+    title: 'Portfolio of Carter Whitworth', 
+    description: 'Computer Engineering Student at University of Tennessee', 
+    imageURL: '' 
+  },
   social: {
     linkedin: 'carter-whitworth',
-
+    x: '',
+    mastodon: '',
+    researchGate: '',
+    facebook: '',
+    instagram: '',
+    reddit: '',
+    threads: '',
+    youtube: '',
+    udemy: '',
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '',
+    discord: '',
+    telegram: '',
+    website: '',
+    phone: '',
     email: 'cwhit1129@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.usercontent.google.com/u/0/uc?id=1pVFYXFHfmDFhVjYz5aKGEX8Iyl_g2HZ1&export=download', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.usercontent.google.com/u/0/uc?id=1pVFYXFHfmDFhVjYz5aKGEX8Iyl_g2HZ1&export=download',
   },
   skills: [
     'Python',
@@ -80,19 +101,81 @@ const CONFIG = {
       position: 'Research Assistant',
       from: 'October 2024',
       to: 'Present',
-    }
-
+      companyLink: '',
+    },
   ],
-
+  certifications: [],
   educations: [
     {
       institution: 'University of Tennessee Knoxville',
       degree: 'B.S. in Computer Engineering',
       from: '2024',
       to: 'Present',
-    }
-  
-
-
+    },
+  ],
+  publications: [],
+  blog: {
+    source: 'dev',
+    username: '',
+    limit: 2,
+  },
+  googleAnalytics: {
+    id: '',
+  },
+  hotjar: { 
+    id: '', 
+    snippetVersion: 6 
+  },
+  themeConfig: {
+    defaultTheme: 'lofi',
+    disableSwitch: false,
+    respectPrefersColorScheme: false,
+    displayAvatarRing: true,
+    themes: [
+      'light',
+      'dark',
+      'cupcake',
+      'bumblebee',
+      'emerald',
+      'corporate',
+      'synthwave',
+      'retro',
+      'cyberpunk',
+      'valentine',
+      'halloween',
+      'garden',
+      'forest',
+      'aqua',
+      'lofi',
+      'pastel',
+      'fantasy',
+      'wireframe',
+      'black',
+      'luxury',
+      'dracula',
+      'cmyk',
+      'autumn',
+      'business',
+      'acid',
+      'lemonade',
+      'night',
+      'coffee',
+      'winter',
+      'dim',
+      'nord',
+      'sunset',
+      'caramellatte',
+      'abyss',
+      'silk',
+      'procyon',
+    ],
+  },
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
+  enablePWA: true,
+};
 
 export default CONFIG;
