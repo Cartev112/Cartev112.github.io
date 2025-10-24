@@ -10,7 +10,9 @@ export default defineConfig({
   plugins: [
     react(),
     createHtmlPlugin({
-      minify: true,
+      minify: false,
+      entry: 'src/main.tsx',
+      template: 'index.html',
       inject: {
         data: {
           metaTitle: CONFIG.seo?.title || 'Portfolio',
