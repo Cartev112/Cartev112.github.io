@@ -63,7 +63,7 @@ const CONFIG = {
   },
   skills: [
     'Python',
-    'Pytorch,'
+    'Pytorch',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -80,14 +80,8 @@ const CONFIG = {
       position: 'Research Assistant',
       from: 'October 2024',
       to: 'Present',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    }
+
   ],
 
   educations: [
