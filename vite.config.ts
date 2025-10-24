@@ -14,7 +14,7 @@ export default defineConfig({
       inject: {
         data: {
           metaTitle: CONFIG.seo?.title || 'Portfolio',
-          metaDescription: CONFIG.seo?.description || '',
+          metaDescription: CONFIG.seo?.description || 'Personal Portfolio',
           metaImageURL: CONFIG.seo?.imageURL || '',
           googleAnalyticsScript: CONFIG.googleAnalytics?.id
             ? `<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -55,5 +55,13 @@ export default defineConfig({
   ],
   define: {
     CONFIG: CONFIG,
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
   },
 });
